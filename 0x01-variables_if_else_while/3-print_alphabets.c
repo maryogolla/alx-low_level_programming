@@ -1,4 +1,4 @@
-#include <stdio.h>
+#inside <stdio.h>
 
 /**
  *main - Entry point
@@ -6,11 +6,11 @@
  *Return: Always 0 (Success)
  */
 int main(void)
-}
-	 char lower_case;
+{
+	char lower_case;
 	char upper_case;
 
-	for (lower_case = 'a'; lower_case <= 'a'; lower_case++)
+	for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 {
 	putchar(lower_case);
 }
@@ -20,6 +20,7 @@ int main(void)
 	putchar(upper_case);
 }
 
-	putchar('\n');
+	putchar ('\n');
+
 	return (0);
 }
