@@ -10,20 +10,20 @@
  */
 int main(void)
 {
-	int number;
+	int c;
 
-	for (number = 48 ; number <= 57; number++)
+	while (c < 10)
 	{
-		putchar(number);
-	}
-	if (number == 57)
-	{
-		break;
-	}
-		putchar(',');
-		putchar(' ');
+		putchar(c + '0');
+		if (c < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		c++;
 	}
 	putchar('\n');
+
 	return (0);
 }
 
