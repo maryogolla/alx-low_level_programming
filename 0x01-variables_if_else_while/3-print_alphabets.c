@@ -1,5 +1,4 @@
 #inside <stdio.h>
-
 /**
  *main - Entry point
  *
