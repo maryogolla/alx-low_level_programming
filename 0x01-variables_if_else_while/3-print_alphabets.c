@@ -1,23 +1,22 @@
-#inside <stdio.h>
+#include <stdio.h>
 
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
-	char C;
+	char lower_case;
+	char upper_case;
 
-	for (c = 'a'; c <= 'z'; ++c)
+	for (lower_case = 'a'; lower_case <= 'z'; ++lower_case)
 	{
-		putchar(c);
+		putchar(lower_case);
 	}
-
-	for (C = 'A'; C <= 'Z'; ++C)
-	{
-		putchar(C);
+	for (upper_case = 'A'; upper_case <= 'Z'; ++upper_case)
+	}
+		putchar(upper_case);
 	}
 	putchar('\n');
 	return (0);
