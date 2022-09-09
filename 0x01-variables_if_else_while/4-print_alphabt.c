@@ -3,7 +3,10 @@
 /**
  * main - Entry point
  *
+ *
+ *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
@@ -14,8 +17,7 @@ int main(void)
 		if (alphabet == 'q')
 		continue;
 		else if (alphabet == 'e')
-		
-			putchar(alphabet);
+		putchar(alphabet);
 	}
 	putchar('\n');
 	return (0);
