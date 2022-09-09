@@ -3,21 +3,25 @@
 /**
  * main - Entry point
  *
+ *
+ *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
-	char lower_case;
-	char upper_case;
+	char c;
+	char C;
 
-	for (lower_case = 'a'; lower_case <= 'z'; ++lower_case)
+	for (c = 'a'; c <= 'z'; ++c)
 	{
-		putchar(lower_case);
+		putchar(c);
 	}
-	for (upper_case = 'A'; upper_case <= 'Z'; ++upper_case)
-	}
-		putchar(upper_case);
+	for (C = 'A'; C <= 'Z'; ++C)
+	{
+		putchar(C);
 	}
 	putchar('\n');
 	return (0);
 }
+
